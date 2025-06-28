@@ -5,9 +5,11 @@ import nltk
 from nltk.corpus import stopwords
 from nltk.stem.porter import PorterStemmer
 
-# Download necessary NLTK data
-nltk.download('punkt')
-nltk.download('stopwords')  # ✅ add this line
+# Ensure necessary NLTK resources are downloaded
+nltk.download('punkt')  # Standard tokenizer
+nltk.download('stopwords')  # Stopwords for English
+# Comment out the punkt_tab download that is incorrectly being accessed
+# nltk.download('punkt_tab')  # No need for this
 
 ps = PorterStemmer()
 
