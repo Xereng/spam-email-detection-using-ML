@@ -113,10 +113,6 @@ SPAM ❌
 
 ---
 
-Sure! Here's the **updated section for your README.md** with clear explanations about the **Multinomial Naive Bayes algorithm** and how it's used in your spam classification app:
-
----
-
 ## 🧠 About the Algorithm and Model
 
 This app uses the **Multinomial Naive Bayes** algorithm — a simple yet powerful text classification algorithm — to predict whether an email message is **SPAM** or **HAM**.
