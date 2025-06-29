@@ -113,9 +113,40 @@ SPAM ❌
 
 ---
 
-## 🧠 Model Used
+Sure! Here's the **updated section for your README.md** with clear explanations about the **Multinomial Naive Bayes algorithm** and how it's used in your spam classification app:
 
-* **Multinomial Naive Bayes (MultinomialNB)**
-* Trained with `CountVectorizer` to process the text.
+---
+
+## 🧠 About the Algorithm and Model
+
+This app uses the **Multinomial Naive Bayes** algorithm — a simple yet powerful text classification algorithm — to predict whether an email message is **SPAM** or **HAM**.
+
+### 🔍 Algorithm: Multinomial Naive Bayes
+
+* **Naive Bayes** is a family of probabilistic algorithms based on applying **Bayes' theorem** with strong (naive) independence assumptions between the features.
+* **Multinomial Naive Bayes** is specifically designed for text classification tasks where features are word counts or frequencies.
+* The algorithm works well for spam detection because it can easily handle the types of patterns (e.g., frequent words) that are typical in spam emails.
+
+### 🛠️ How the Model is Trained
+
+1. The app uses a dataset (`email-text-data.json`) containing email `MESSAGE`s (text) and their corresponding `CATEGORY` labels (either `spam` or `ham`).
+2. **Text Preprocessing:**
+
+   * The `CountVectorizer` from `scikit-learn` is used to convert the raw text into numerical features (word counts).
+   * Common English stop words (like "the", "is", "in") are removed to reduce noise.
+3. The dataset is split into:
+
+   * **70%** training data
+   * **30%** testing data
+4. The **Multinomial Naive Bayes algorithm** is trained on the training data to build the model. This trained model is then used to predict whether new email messages are spam or not.
+
+### 📊 Libraries Used
+
+* **`scikit-learn`**:
+
+  * `CountVectorizer`: Converts text to numerical features.
+  * `MultinomialNB`: The Naive Bayes algorithm used to build the model.
+  * `train_test_split`: Splits the dataset into training and testing sets.
+
 
 ---
