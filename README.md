@@ -88,11 +88,11 @@ Example:
 
 ```
 spam-email-classifier/
-│
-├── app.py                   # Main Streamlit app
-├── email-text-data.json     # Dataset
-├── requirements.txt         # List of dependencies
-└── README.md                # This file
+├── app.py                  # Main application file
+├── email-text-data.json    # Dataset containing email messages and labels
+├── requirements.txt        # Python package dependencies
+└── README.md               # Project overview
+
 ```
 
 ---
