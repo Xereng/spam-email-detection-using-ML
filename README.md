@@ -1,5 +1,3 @@
-Absolutely! Here's a simple and clear **GitHub README** you can use for your spam email classification project:
-
 ---
 
 # 📧 Spam Email Classifier
